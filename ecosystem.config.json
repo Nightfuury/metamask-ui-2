@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "metamask-sign-ui",
+      "script": "server.js",
+      "exec_mode": "cluster_mode",
+      "instances": 1,
+      "autorestart": true,
+      "watch": false,
+      "time": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
